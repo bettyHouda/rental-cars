@@ -1,0 +1,9 @@
+.payment button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: rgb(37, 96, 128);
+    color: #fff;
+    border: none;
+    outline: none;
+  }
+  

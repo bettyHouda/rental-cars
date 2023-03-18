@@ -1,0 +1,81 @@
+.footer{
+    background: rgb(35, 87, 139);
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.logo h1 a span{
+    font-size: 1.7rem;
+}
+.logo h1 a i{
+    font-size: 2.2rem;
+    color: rgb(255, 255, 255);
+}
+.logo h1 a{
+    text-decoration: none;
+    color: white;
+}
+.logo h1{
+    line-height: 2.4rem;
+    
+}
+
+.footer_logo-content{
+    color: rgb(208, 210, 212);
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.quick_link{
+    
+    background: transparent !important;
+    font-weight: 400;
+}
+.quick_link a{
+    color: rgb(208, 210, 212);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.quick_link a:hover{
+    color: rgb(171, 224, 250);
+}
+
+.footer_link-title{
+    color: aliceblue;
+}
+
+.office_info{
+    color: rgb(208, 210, 212);
+}
+
+.footer_bottom{
+    border-top: 1px solid rgb(153, 149, 149);
+    margin-top: 10px;
+}
+.footer_bottom p{
+    text-align: center;
+    color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer__logo-content {
+      font-size: 0.8rem;
+    }
+  
+    .quick__link,
+    .office__info {
+      font-size: 0.8rem;
+      line-height: 1.5rem;
+    }
+  
+    .footer__link-title {
+      font-size: 1rem;
+      margin-top: 15px;
+    }
+  
+    .footer__bottom p {
+      font-size: 0.7rem;
+    }
+  
+    
+  }
+  
